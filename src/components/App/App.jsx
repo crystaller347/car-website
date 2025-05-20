@@ -4,6 +4,7 @@ function App() {
 
   return (
     <>
+    <h1>Rental car</h1>
     </>
   )
 }
