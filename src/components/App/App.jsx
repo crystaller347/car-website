@@ -1,4 +1,4 @@
-import "./App.module.css";
+// import css from "./App.module.css";
 import { Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Navigation from "../Navigation/Navigation.jsx";
@@ -16,8 +16,8 @@ export default function App() {
       <Suspense fallback={<div>Loading page...</div>}>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/catalog" element={<CatalogPage />} />
-          <Route path="/catalog/:carId" element={<CarDetailsPage />} />
+          <Route path="/catalog" element={<CatalogPage />} />
+          {/* <Route path="/catalog/:carId" element={<CarDetailsPage />} />
           <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>
       </Suspense>

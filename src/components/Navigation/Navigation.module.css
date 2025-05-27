@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+}
+
+.navLink,
+.logo {
+  color: rgb(16, 24, 40);
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+/* .logo {
+  font-weight: 800;
+} */
+
+.logoSpan {
+  color: rgb(52, 112, 255);
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.navLink:hover,
+.active {
+  color: rgb(11, 68, 205);
+}
